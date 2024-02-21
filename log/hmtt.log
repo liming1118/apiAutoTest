@@ -1,0 +1,109 @@
+2024-02-21 01:20:52,372 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url: https://app165.acapp.acwing.com.cn/api/token/
+2024-02-21 01:20:52,372 INFO [api_mp.py(__init__:15)] - 正在初始化自媒体发布文章url: https://app165.acapp.acwing.com.cn/myspace/post/
+2024-02-21 01:20:52,372 INFO [api_mp.py(__init__:18)] - 正在初始化查询所有用户url: https://app165.acapp.acwing.com.cn/myspace/userlist/
+2024-02-21 01:20:52,373 INFO [api_mp.py(api_mp_login:22)] - 正在调用自媒体登录接口，请求数据：{'username': '123', 'password': '123'}
+2024-02-21 01:20:52,714 INFO [tool.py(common_token:15)] - 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA4NDQ5OTM4LCJpYXQiOjE3MDg0NDk2MzgsImp0aSI6IjFmNmZkNjc2YWNhYzQxYmY4ZTdlNjdhYjg0NjMzYzdlIiwidXNlcl9pZCI6NjV9.ldKCDmtnvAUKdsCoRw1TOVKI_YR0IdpHU11YZPoTNpM'}
+2024-02-21 01:20:52,730 INFO [api_mp.py(api_mp_article:27)] - 正在调用自媒体发布文章接口，请求数据：{'content': '发布文章'}
+2024-02-21 01:20:52,937 INFO [tool.py(common_assert_success:31)] - 正在调用断言success方法！
+2024-02-21 01:20:52,942 INFO [api_mp.py(api_mp_users:32)] - 正在调用自媒体查询所有用户接口，请求数据：{}
+2024-02-21 01:21:49,355 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url: https://app165.acapp.acwing.com.cn/api/token/
+2024-02-21 01:21:49,356 INFO [api_mp.py(__init__:15)] - 正在初始化自媒体发布文章url: https://app165.acapp.acwing.com.cn/myspace/post/
+2024-02-21 01:21:49,356 INFO [api_mp.py(__init__:18)] - 正在初始化查询所有用户url: https://app165.acapp.acwing.com.cn/myspace/userlist/
+2024-02-21 01:21:49,356 INFO [api_mp.py(api_mp_login:22)] - 正在调用自媒体登录接口，请求数据：{'username': '123', 'password': '123'}
+2024-02-21 01:21:49,668 INFO [tool.py(common_token:15)] - 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA4NDQ5OTk1LCJpYXQiOjE3MDg0NDk2OTUsImp0aSI6IjFkZWUwZGQzZTlmMDQ2NjI5NmFkZmYzMjY1OWFkYzUxIiwidXNlcl9pZCI6NjV9.CD751Oy1ADykcQIlqEq0oLY7Tvs0gi5dCIpVHKX_K0U'}
+2024-02-21 01:21:49,674 INFO [api_mp.py(api_mp_article:27)] - 正在调用自媒体发布文章接口，请求数据：{'content': '发布文章'}
+2024-02-21 01:21:49,863 INFO [tool.py(common_assert_success:31)] - 正在调用断言success方法！
+2024-02-21 01:21:49,868 INFO [api_mp.py(api_mp_users:32)] - 正在调用自媒体查询所有用户接口，请求数据：{}
+2024-02-21 01:49:50,717 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url: https://app165.acapp.acwing.com.cn/api/token/
+2024-02-21 01:49:50,718 INFO [api_mp.py(__init__:15)] - 正在初始化自媒体发布文章url: https://app165.acapp.acwing.com.cn/myspace/post/
+2024-02-21 01:49:50,718 INFO [api_mp.py(__init__:18)] - 正在初始化查询所有用户url: https://app165.acapp.acwing.com.cn/myspace/userlist/
+2024-02-21 01:49:50,718 INFO [api_mp.py(api_mp_login:22)] - 正在调用自媒体登录接口，请求数据：{'username': '123', 'password': '123'}
+2024-02-21 01:49:51,077 INFO [tool.py(common_token:15)] - 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA4NDUxNjc2LCJpYXQiOjE3MDg0NTEzNzYsImp0aSI6IjVlNTVlZWExNmYzMDRkN2E5MzBiYWQ5MjY1ODE0N2Q0IiwidXNlcl9pZCI6NjV9.zRN5RPjEwnN_olM9Wx8rUCguLFhWubV7JeTd_gOJ488'}
+2024-02-21 01:49:51,088 INFO [api_mp.py(api_mp_login:22)] - 正在调用自媒体登录接口，请求数据：{'username': '123345', 'password': '123323'}
+2024-02-21 01:49:51,416 ERROR [test01_mp.py(test01_mp_login:31)] - can only concatenate str (not "NoneType") to str
+2024-02-21 01:49:51,484 INFO [api_mp.py(api_mp_article:27)] - 正在调用自媒体发布文章接口，请求数据：{'content': '发布一条内容'}
+2024-02-21 01:49:51,658 INFO [tool.py(common_assert_success:31)] - 正在调用断言success方法！
+2024-02-21 01:49:51,663 INFO [api_mp.py(api_mp_users:32)] - 正在调用自媒体查询所有用户接口，请求数据：{}
+2024-02-21 01:51:51,725 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url: https://app165.acapp.acwing.com.cn/api/token/
+2024-02-21 01:51:51,725 INFO [api_mp.py(__init__:15)] - 正在初始化自媒体发布文章url: https://app165.acapp.acwing.com.cn/myspace/post/
+2024-02-21 01:51:51,725 INFO [api_mp.py(__init__:18)] - 正在初始化查询所有用户url: https://app165.acapp.acwing.com.cn/myspace/userlist/
+2024-02-21 01:51:51,726 INFO [api_mp.py(api_mp_login:22)] - 正在调用自媒体登录接口，请求数据：{'username': '123', 'password': '123'}
+2024-02-21 01:51:52,045 INFO [tool.py(common_token:15)] - 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA4NDUxNzk3LCJpYXQiOjE3MDg0NTE0OTcsImp0aSI6IjQyMmI0MTk1YzRmYTRjY2I5N2EzNzE0YzZkZjMyNjFlIiwidXNlcl9pZCI6NjV9.-_urkqKKRDTU8fYX4Twop0_b9z-0kPpmHl9x8GNtH4I'}
+2024-02-21 01:51:52,054 INFO [api_mp.py(api_mp_article:27)] - 正在调用自媒体发布文章接口，请求数据：{'content': '发布一条内容'}
+2024-02-21 01:51:52,212 INFO [tool.py(common_assert_success:31)] - 正在调用断言success方法！
+2024-02-21 01:51:52,220 INFO [api_mp.py(api_mp_users:32)] - 正在调用自媒体查询所有用户接口，请求数据：{}
+2024-02-21 01:58:52,962 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url: https://app165.acapp.acwing.com.cn/api/token/
+2024-02-21 01:58:52,962 INFO [api_mp.py(__init__:15)] - 正在初始化自媒体发布文章url: https://app165.acapp.acwing.com.cn/myspace/post/
+2024-02-21 01:58:52,962 INFO [api_mp.py(__init__:18)] - 正在初始化查询所有用户url: https://app165.acapp.acwing.com.cn/myspace/userlist/
+2024-02-21 01:58:52,963 INFO [api_mp.py(api_mp_login:22)] - 正在调用自媒体登录接口，请求数据：{'username': '123', 'password': '123'}
+2024-02-21 01:58:53,317 INFO [tool.py(common_token:15)] - 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA4NDUyMjE5LCJpYXQiOjE3MDg0NTE5MTksImp0aSI6ImQ1ZGU1NzBiMzAyZDQ0Y2ZhZDZiYzkwMmM5OGI2ODJhIiwidXNlcl9pZCI6NjV9.5NRIOHaJ6XWAV5GTvHtYXubTDyDURgNG0kNOF-FELTs'}
+2024-02-21 01:58:53,337 INFO [api_mp.py(api_mp_login:22)] - 正在调用自媒体登录接口，请求数据：{'username': '123345', 'password': '123323'}
+2024-02-21 01:58:53,685 ERROR [test01_mp.py(test01_mp_login:32)] - can only concatenate str (not "NoneType") to str
+2024-02-21 02:01:54,557 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url: https://app165.acapp.acwing.com.cn/api/token/
+2024-02-21 02:01:54,557 INFO [api_mp.py(__init__:15)] - 正在初始化自媒体发布文章url: https://app165.acapp.acwing.com.cn/myspace/post/
+2024-02-21 02:01:54,557 INFO [api_mp.py(__init__:18)] - 正在初始化查询所有用户url: https://app165.acapp.acwing.com.cn/myspace/userlist/
+2024-02-21 02:01:54,558 INFO [api_mp.py(api_mp_login:22)] - 正在调用自媒体登录接口，请求数据：{'username': '123', 'password': '123'}
+2024-02-21 02:01:54,950 INFO [tool.py(common_token:15)] - 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA4NDUyNDAwLCJpYXQiOjE3MDg0NTIxMDAsImp0aSI6ImFiOWQ2YTJlODJhZTQ2OWQ5MGQ0YTQyMDJkYmFhYjQ5IiwidXNlcl9pZCI6NjV9.G2stS1DNAqWqu-2cOIfxN_E06SNU0k2xTOt8xd7xrg0'}
+2024-02-21 02:02:28,155 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url: https://app165.acapp.acwing.com.cn/api/token/
+2024-02-21 02:02:28,155 INFO [api_mp.py(__init__:15)] - 正在初始化自媒体发布文章url: https://app165.acapp.acwing.com.cn/myspace/post/
+2024-02-21 02:02:28,155 INFO [api_mp.py(__init__:18)] - 正在初始化查询所有用户url: https://app165.acapp.acwing.com.cn/myspace/userlist/
+2024-02-21 02:02:28,156 INFO [api_mp.py(api_mp_login:22)] - 正在调用自媒体登录接口，请求数据：{'username': '123', 'password': '123'}
+2024-02-21 02:02:28,551 INFO [tool.py(common_token:15)] - 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA4NDUyNDM0LCJpYXQiOjE3MDg0NTIxMzQsImp0aSI6IjA3NWY1ZjZhMmNmMjRjYWY5YjRhOWE3OTUxMDY2MmY5IiwidXNlcl9pZCI6NjV9.sIL3eHUmqfmdemkw-cNYF4RQuB4neB1eatcAZRHcSZA'}
+2024-02-21 02:02:28,556 INFO [api_mp.py(api_mp_article:27)] - 正在调用自媒体发布文章接口，请求数据：{'content': '发布一条内容'}
+2024-02-21 02:02:28,768 INFO [tool.py(common_assert_success:31)] - 正在调用断言success方法！
+2024-02-21 02:02:28,774 INFO [api_mp.py(api_mp_users:32)] - 正在调用自媒体查询所有用户接口，请求数据：{}
+2024-02-21 02:09:02,900 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url: https://app165.acapp.acwing.com.cn/api/token/
+2024-02-21 02:09:02,901 INFO [api_mp.py(__init__:15)] - 正在初始化自媒体发布文章url: https://app165.acapp.acwing.com.cn/myspace/post/
+2024-02-21 02:09:02,901 INFO [api_mp.py(__init__:18)] - 正在初始化查询所有用户url: https://app165.acapp.acwing.com.cn/myspace/userlist/
+2024-02-21 02:09:02,901 INFO [api_mp.py(api_mp_login:22)] - 正在调用自媒体登录接口，请求数据：{'username': '123', 'password': '123'}
+2024-02-21 02:09:03,280 INFO [tool.py(common_token:15)] - 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA4NDUyODI5LCJpYXQiOjE3MDg0NTI1MjksImp0aSI6ImZhMDE3MDUwMjY3ZDQzNjRhYzdiMjcyYmQwMzY5NmRhIiwidXNlcl9pZCI6NjV9.ZBIuXJSgAYamJhmGPboMrPLwybpYLllpplsrDAZfCtM'}
+2024-02-21 02:09:03,285 INFO [api_mp.py(api_mp_article:27)] - 正在调用自媒体发布文章接口，请求数据：{'content': '发布一条内容'}
+2024-02-21 02:09:03,473 INFO [tool.py(common_assert_success:31)] - 正在调用断言success方法！
+2024-02-21 02:09:03,477 INFO [api_mp.py(api_mp_users:32)] - 正在调用自媒体查询所有用户接口，请求数据：{}
+2024-02-21 20:59:23,775 INFO [api_mp.py(__init__:16)] - 正在初始化自媒体登录url: https://app165.acapp.acwing.com.cn/api/token/
+2024-02-21 20:59:23,775 INFO [api_mp.py(__init__:19)] - 正在初始化自媒体发布文章url: https://app165.acapp.acwing.com.cn/myspace/post/
+2024-02-21 20:59:23,775 INFO [api_mp.py(__init__:22)] - 正在初始化查询所有用户url: https://app165.acapp.acwing.com.cn/myspace/userlist/
+2024-02-21 20:59:23,776 INFO [api_mp.py(api_mp_login:26)] - 正在调用自媒体登录接口，请求数据：{'username': '123', 'password': '123'}
+2024-02-21 20:59:25,597 INFO [tool.py(common_token:15)] - 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA4NTIwNjUxLCJpYXQiOjE3MDg1MjAzNTEsImp0aSI6ImZlNzJmMzI3N2E5OTQ1NzFhNjg5M2M5NjcxZjQ1ZDdlIiwidXNlcl9pZCI6NjV9.rZSrA34ZxU0822eH28XKS3rXXEgM2Lv4NpvVemFaumw'}
+2024-02-21 20:59:25,605 INFO [api_mp.py(api_mp_article:31)] - 正在调用自媒体发布文章接口，请求数据：{'content': '发布一条内容'} 请求头: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA4NTIwNjUxLCJpYXQiOjE3MDg1MjAzNTEsImp0aSI6ImZlNzJmMzI3N2E5OTQ1NzFhNjg5M2M5NjcxZjQ1ZDdlIiwidXNlcl9pZCI6NjV9.rZSrA34ZxU0822eH28XKS3rXXEgM2Lv4NpvVemFaumw'}
+2024-02-21 20:59:28,648 INFO [tool.py(common_assert_success:31)] - 正在调用断言success方法！
+2024-02-21 20:59:28,653 INFO [api_mp.py(api_mp_users:36)] - 正在调用自媒体查询所有用户接口，请求数据：{} 请求头: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA4NTIwNjUxLCJpYXQiOjE3MDg1MjAzNTEsImp0aSI6ImZlNzJmMzI3N2E5OTQ1NzFhNjg5M2M5NjcxZjQ1ZDdlIiwidXNlcl9pZCI6NjV9.rZSrA34ZxU0822eH28XKS3rXXEgM2Lv4NpvVemFaumw'}
+2024-02-21 21:08:26,026 INFO [api_mp.py(__init__:16)] - 正在初始化自媒体登录url: https://app165.acapp.acwing.com.cn/api/token/
+2024-02-21 21:08:26,026 INFO [api_mp.py(__init__:19)] - 正在初始化自媒体发布文章url: https://app165.acapp.acwing.com.cn/myspace/post/
+2024-02-21 21:08:26,026 INFO [api_mp.py(__init__:22)] - 正在初始化查询所有用户url: https://app165.acapp.acwing.com.cn/myspace/userlist/
+2024-02-21 21:08:26,026 INFO [api_mp.py(api_mp_login:26)] - 正在调用自媒体登录接口，请求数据：{'username': '123', 'password': '123'}
+2024-02-21 21:08:28,104 INFO [tool.py(common_token:15)] - 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA4NTIxMTkzLCJpYXQiOjE3MDg1MjA4OTMsImp0aSI6Ijc5ODdiZGZmMGI0YzQ1OTQ5OGE0ZGEzOTRkODVhYWVlIiwidXNlcl9pZCI6NjV9.V0NSusI1vKACMRZNngYCiiiVlktCSM8z6xHZvHTn6To'}
+2024-02-21 21:08:28,111 INFO [api_mp.py(api_mp_article:31)] - 正在调用自媒体发布文章接口，请求数据：{'content': '发布一条内容'} 请求头: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA4NTIxMTkzLCJpYXQiOjE3MDg1MjA4OTMsImp0aSI6Ijc5ODdiZGZmMGI0YzQ1OTQ5OGE0ZGEzOTRkODVhYWVlIiwidXNlcl9pZCI6NjV9.V0NSusI1vKACMRZNngYCiiiVlktCSM8z6xHZvHTn6To'}
+2024-02-21 21:08:30,806 INFO [tool.py(common_assert_success:31)] - 正在调用断言success方法！
+2024-02-21 21:08:30,812 INFO [api_mp.py(api_mp_users:36)] - 正在调用自媒体查询所有用户接口，请求数据：{} 请求头: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA4NTIxMTkzLCJpYXQiOjE3MDg1MjA4OTMsImp0aSI6Ijc5ODdiZGZmMGI0YzQ1OTQ5OGE0ZGEzOTRkODVhYWVlIiwidXNlcl9pZCI6NjV9.V0NSusI1vKACMRZNngYCiiiVlktCSM8z6xHZvHTn6To'}
+2024-02-21 21:12:08,436 INFO [api_mp.py(__init__:16)] - 正在初始化自媒体登录url: https://app165.acapp.acwing.com.cn/api/token/
+2024-02-21 21:12:08,437 INFO [api_mp.py(__init__:19)] - 正在初始化自媒体发布文章url: https://app165.acapp.acwing.com.cn/myspace/post/
+2024-02-21 21:12:08,437 INFO [api_mp.py(__init__:22)] - 正在初始化查询所有用户url: https://app165.acapp.acwing.com.cn/myspace/userlist/
+2024-02-21 21:12:08,437 INFO [api_mp.py(api_mp_login:26)] - 正在调用自媒体登录接口，请求数据：{'username': '123', 'password': '123'}
+2024-02-21 21:12:11,845 INFO [tool.py(common_token:15)] - 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA4NTIxNDE3LCJpYXQiOjE3MDg1MjExMTcsImp0aSI6ImE0ZDk4NjIyYTE0ZDRjOGJhNTRjMGE5ZDUxODQ3M2RjIiwidXNlcl9pZCI6NjV9.G9pIBkIo9YwE-yvGsWDm6FypC1OJTf9wocJlDAG2mxo'}
+2024-02-21 21:12:11,850 INFO [api_mp.py(api_mp_article:31)] - 正在调用自媒体发布文章接口，请求数据：{'content': '发布一条内容'} 请求头: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA4NTIxNDE3LCJpYXQiOjE3MDg1MjExMTcsImp0aSI6ImE0ZDk4NjIyYTE0ZDRjOGJhNTRjMGE5ZDUxODQ3M2RjIiwidXNlcl9pZCI6NjV9.G9pIBkIo9YwE-yvGsWDm6FypC1OJTf9wocJlDAG2mxo'}
+2024-02-21 21:12:20,320 INFO [tool.py(common_assert_success:31)] - 正在调用断言success方法！
+2024-02-21 21:12:20,328 INFO [api_mp.py(api_mp_users:36)] - 正在调用自媒体查询所有用户接口，请求数据：{} 请求头: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA4NTIxNDE3LCJpYXQiOjE3MDg1MjExMTcsImp0aSI6ImE0ZDk4NjIyYTE0ZDRjOGJhNTRjMGE5ZDUxODQ3M2RjIiwidXNlcl9pZCI6NjV9.G9pIBkIo9YwE-yvGsWDm6FypC1OJTf9wocJlDAG2mxo'}
+2024-02-21 21:15:23,008 INFO [api_mp.py(__init__:16)] - 正在初始化自媒体登录url: https://app165.acapp.acwing.com.cn/api/token/
+2024-02-21 21:15:23,008 INFO [api_mp.py(__init__:19)] - 正在初始化自媒体发布文章url: https://app165.acapp.acwing.com.cn/myspace/post/
+2024-02-21 21:15:23,008 INFO [api_mp.py(__init__:22)] - 正在初始化查询所有用户url: https://app165.acapp.acwing.com.cn/myspace/userlist/
+2024-02-21 21:15:23,009 INFO [api_mp.py(api_mp_login:26)] - 正在调用自媒体登录接口，请求数据：{'username': '123', 'password': '123'}
+2024-02-21 21:15:23,354 INFO [tool.py(common_token:15)] - 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA4NTIxNjA5LCJpYXQiOjE3MDg1MjEzMDksImp0aSI6IjE1ODY1ZGM0ZGRlMTRkY2I4YTdkMmQ2OTBjMjQwZTNlIiwidXNlcl9pZCI6NjV9.p0XSHW0J9yqfshxwYe2TxZtNktTiaOAc9ee5v1A9w58'}
+2024-02-21 21:15:23,366 INFO [api_mp.py(api_mp_article:31)] - 正在调用自媒体发布文章接口，请求数据：{'content': '发布一条内容'} 请求头: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA4NTIxNjA5LCJpYXQiOjE3MDg1MjEzMDksImp0aSI6IjE1ODY1ZGM0ZGRlMTRkY2I4YTdkMmQ2OTBjMjQwZTNlIiwidXNlcl9pZCI6NjV9.p0XSHW0J9yqfshxwYe2TxZtNktTiaOAc9ee5v1A9w58'}
+2024-02-21 21:15:23,547 INFO [tool.py(common_assert_success:31)] - 正在调用断言success方法！
+2024-02-21 21:15:23,554 INFO [api_mp.py(api_mp_users:36)] - 正在调用自媒体查询所有用户接口，请求数据：{} 请求头: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA4NTIxNjA5LCJpYXQiOjE3MDg1MjEzMDksImp0aSI6IjE1ODY1ZGM0ZGRlMTRkY2I4YTdkMmQ2OTBjMjQwZTNlIiwidXNlcl9pZCI6NjV9.p0XSHW0J9yqfshxwYe2TxZtNktTiaOAc9ee5v1A9w58'}
+2024-02-21 21:33:05,028 INFO [api_mp.py(__init__:16)] - 正在初始化自媒体登录url: https://app165.acapp.acwing.com.cn/api/token/
+2024-02-21 21:33:05,029 INFO [api_mp.py(__init__:19)] - 正在初始化自媒体发布文章url: https://app165.acapp.acwing.com.cn/myspace/post/
+2024-02-21 21:33:05,029 INFO [api_mp.py(__init__:22)] - 正在初始化查询所有用户url: https://app165.acapp.acwing.com.cn/myspace/userlist/
+2024-02-21 21:33:05,030 INFO [api_mp.py(api_mp_login:26)] - 正在调用自媒体登录接口，请求数据：{'username': '123', 'password': '123'}
+2024-02-21 21:33:10,220 INFO [tool.py(common_token:15)] - 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA4NTIyNjc1LCJpYXQiOjE3MDg1MjIzNzUsImp0aSI6IjM4ZDIzZmNkZmQ3ODQ1MWRhOThlYzk1NWQ0OTZiNjhiIiwidXNlcl9pZCI6NjV9.2Sg1nKE4oe4VqmxxwSZJItNCiNpBRJfH1ZYc-VRyAfU'}
+2024-02-21 21:33:10,229 INFO [api_mp.py(api_mp_article:31)] - 正在调用自媒体发布文章接口，请求数据：{'content': '发布一条内容'} 请求头: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA4NTIyNjc1LCJpYXQiOjE3MDg1MjIzNzUsImp0aSI6IjM4ZDIzZmNkZmQ3ODQ1MWRhOThlYzk1NWQ0OTZiNjhiIiwidXNlcl9pZCI6NjV9.2Sg1nKE4oe4VqmxxwSZJItNCiNpBRJfH1ZYc-VRyAfU'}
+2024-02-21 21:33:13,649 INFO [api_mp.py(api_mp_users:36)] - 正在调用自媒体查询所有用户接口，请求数据：{} 请求头: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA4NTIyNjc1LCJpYXQiOjE3MDg1MjIzNzUsImp0aSI6IjM4ZDIzZmNkZmQ3ODQ1MWRhOThlYzk1NWQ0OTZiNjhiIiwidXNlcl9pZCI6NjV9.2Sg1nKE4oe4VqmxxwSZJItNCiNpBRJfH1ZYc-VRyAfU'}
+2024-02-21 21:33:53,310 INFO [api_mp.py(__init__:16)] - 正在初始化自媒体登录url: https://app165.acapp.acwing.com.cn/api/token/
+2024-02-21 21:33:53,310 INFO [api_mp.py(__init__:19)] - 正在初始化自媒体发布文章url: https://app165.acapp.acwing.com.cn/myspace/post/
+2024-02-21 21:33:53,310 INFO [api_mp.py(__init__:22)] - 正在初始化查询所有用户url: https://app165.acapp.acwing.com.cn/myspace/userlist/
+2024-02-21 21:33:53,311 INFO [api_mp.py(api_mp_login:26)] - 正在调用自媒体登录接口，请求数据：{'username': '123', 'password': '123'}
+2024-02-21 21:33:56,133 INFO [tool.py(common_token:15)] - 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA4NTIyNzIxLCJpYXQiOjE3MDg1MjI0MjEsImp0aSI6ImZjZDk3YjBkZjBkNjQ2ODI4ZjQxOTJjMTAyYjA4OGRhIiwidXNlcl9pZCI6NjV9.XO2cAeKQ1lBiIRNc8lOB1yPHUjaGDN5NijxftioNJzQ'}
+2024-02-21 21:33:56,140 INFO [api_mp.py(api_mp_article:31)] - 正在调用自媒体发布文章接口，请求数据：{'content': '发布一条内容'} 请求头: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA4NTIyNzIxLCJpYXQiOjE3MDg1MjI0MjEsImp0aSI6ImZjZDk3YjBkZjBkNjQ2ODI4ZjQxOTJjMTAyYjA4OGRhIiwidXNlcl9pZCI6NjV9.XO2cAeKQ1lBiIRNc8lOB1yPHUjaGDN5NijxftioNJzQ'}
+2024-02-21 21:34:00,584 INFO [tool.py(common_assert_success:31)] - 正在调用断言success方法！
+2024-02-21 21:34:00,589 INFO [api_mp.py(api_mp_users:36)] - 正在调用自媒体查询所有用户接口，请求数据：{} 请求头: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA4NTIyNzIxLCJpYXQiOjE3MDg1MjI0MjEsImp0aSI6ImZjZDk3YjBkZjBkNjQ2ODI4ZjQxOTJjMTAyYjA4OGRhIiwidXNlcl9pZCI6NjV9.XO2cAeKQ1lBiIRNc8lOB1yPHUjaGDN5NijxftioNJzQ'}

@@ -1,0 +1,5 @@
+[32mINFO    [0m logger:api_mp.py:16 正在初始化自媒体登录url: https://app165.acapp.acwing.com.cn/api/token/
+[32mINFO    [0m logger:api_mp.py:19 正在初始化自媒体发布文章url: https://app165.acapp.acwing.com.cn/myspace/post/
+[32mINFO    [0m logger:api_mp.py:22 正在初始化查询所有用户url: https://app165.acapp.acwing.com.cn/myspace/userlist/
+[32mINFO    [0m logger:api_mp.py:26 正在调用自媒体登录接口，请求数据：{'username': '123', 'password': '123'}
+[32mINFO    [0m logger:tool.py:15 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA4NTIyNzIxLCJpYXQiOjE3MDg1MjI0MjEsImp0aSI6ImZjZDk3YjBkZjBkNjQ2ODI4ZjQxOTJjMTAyYjA4OGRhIiwidXNlcl9pZCI6NjV9.XO2cAeKQ1lBiIRNc8lOB1yPHUjaGDN5NijxftioNJzQ'}
